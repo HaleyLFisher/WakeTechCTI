@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of allnightapothecary</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      body {
+        background-image: url("violet_assets/violet_background_image_2.jpg");
+        background-repeat: repeat-y;
+        background-color: rebeccapurple;
+      }
+      
+      aside {
+        height: 60%;
+        width: 20%;
+        background-color: mediumpurple;
+        float: right;
+        border: 3px solid rebeccapurple;
+        text-align: justify;
+        color: rebeccapurple;
+        display: block;
+        padding: 10px 20px;
+        margin: 1%;
+        font-size: 13px;
+      }
+      aside > article > h1 {
+        text-align: center;
+        font-size: 20px;
+        color: palegreen;
+      }
+      aside > article > img {
+        position: relative;
+        left: 20%;
+        height: 120px;
+        width: 145px;
+      }
+      .main {
+        height: 50%
+        width: 45%;
+        background-color: mediumpurple;
+        opacity: 100%;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: 30%;
+        padding: 15px 15px;
+      }
+    
+    </style>
+  </head>
+  <body>
+  <header>
+  </header>
+  <main>
+    <aside>
+      <article>
+      <h1>About Me</h1>
+      <p> My name is Violet. I built this website back when I was in my early teens and I'm re-visiting it now. I'm a 29 year old sanitation professional living and working in Portland, Oregon. </p>
+      <p>When I'm not cleaning up hotel rooms, homes, hospitals or other places, I'm pursuing my hobbies. Recording my dream journal, updating my daily journal, photographing my urban exploration, and listening to pirate radio are some of my favorite activities and I'm always on the look out for new music.</p>
+      <img src="violet_assets/Ouija_Planchette_Stock_Photo-removebg-preview.png">
+      <article>
+      </aside>
+    <article class="main">
+    <h1>Welcome to Violet's Online Altar</h1>
+    <p></p>
+    </article>
+  </main>
+  </body>
+</html>
